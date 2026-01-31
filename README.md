@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import meanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanwd@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-meanwd/tags). For example,
+
+```javascript
 import meanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanwd@v0.1.0-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ The function has the following parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import meanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanwd@v0.1.0-esm/index.mjs';
+import meanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-meanwd@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
